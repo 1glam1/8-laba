@@ -237,8 +237,8 @@ def taxi(n):
         sum = car1[i] * km1[i]
         summa += sum
 
-    print(' '.join(person))
-    print(summa)
+    print('Порядок рассадки сотрудников:',' '.join(person))
+    print('Сумма:',summa,'руб.')
     symma(summa)
     
 while True:
@@ -250,5 +250,4 @@ while True:
             print('Введенно неверное значение!')
     except ValueError:
         print('Введено неверное значение!')
-
 taxi(n)
